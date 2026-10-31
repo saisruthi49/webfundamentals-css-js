@@ -1,0 +1,21 @@
+:root {
+  --primary: #09090a;
+  --dark: #1b2430;
+  --light: #f5f7fa;
+  --radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+  background: var(--light);
+}
